@@ -1,0 +1,19 @@
+{
+  "request": {
+    "urlPathPattern": "/foxbit/Authenticate",
+    "method": "POST"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "Authenticated": true,
+      "Requires2FA": true,
+      "AuthType": "Google",
+      "AddtlInfo": "",
+      "Pending2FaToken": "873c0804-6b99-47ca-a981-84c4401928a8"
+    }
+  }
+}

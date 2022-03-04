@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  wiremock:
+    build: .
+    ports:
+      - "4033:8080"
+    volumes:
+      - ./mappings:/app/mappings
+      - ./__files:/app/__files

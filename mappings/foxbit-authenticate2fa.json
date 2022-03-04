@@ -1,0 +1,17 @@
+{
+  "request": {
+    "urlPathPattern": "/foxbit/Authenticate2FA",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "Authenticated": true,
+      "UserId": 123456,
+      "SessionToken": "873c0804-6b99-47ca-a981-84c4401928a8"
+    }
+  }
+}

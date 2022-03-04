@@ -1,0 +1,20 @@
+{
+  "request": {
+    "urlPathPattern": "/foxbit/SendOrder",
+    "method": "POST"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "jsonBody": {
+      "status": "Accepted",
+      "errormsg": "",
+      "OrderId": "{{now format='epoch'}}"
+    }
+  }
+}

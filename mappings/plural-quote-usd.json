@@ -1,0 +1,18 @@
+{
+  "request": {
+    "urlPathPattern": "/plural/usd-quote",
+    "method": "POST"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "Currency": "USD/BRL",
+        "LastPrice": 5.7603
+      }
+    ]
+  }
+}

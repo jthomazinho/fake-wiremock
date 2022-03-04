@@ -1,0 +1,19 @@
+{
+  "request": {
+    "urlPathPattern": "/bitstamp/api/v2/buy/market/[a-z]+/",
+    "method": "POST"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "jsonBody": {
+      "id": "{{now format='epoch'}}",
+      "price": 5000.0
+    }
+  }
+}

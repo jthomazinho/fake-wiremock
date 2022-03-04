@@ -1,0 +1,39 @@
+{
+  "request": {
+    "urlPathPattern": "/bitstamp/api/v2/order_status/",
+    "method": "POST"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "jsonBody": {
+      "status": "Finished",
+      "id": 1225451823569857,
+      "transactions": [
+        {
+          "fee": "0.08",
+          "price": "0.19550000",
+          "datetime": "2020-04-27 19:59:10.968000",
+          "usd": "29.32500000",
+          "tid": "{{now format='epoch'}}",
+          "type": 2,
+          "btc": "0.01500000"
+        },
+        {
+          "fee": "0.08",
+          "price": "0.19150000",
+          "datetime": "2020-04-27 19:59:10.968000",
+          "usd": "29.31500000",
+          "tid": "{{now offset='-1 seconds' format='epoch'}}",
+          "type": 2,
+          "btc": "0.01400000"
+        }
+      ]
+    }
+  }
+}

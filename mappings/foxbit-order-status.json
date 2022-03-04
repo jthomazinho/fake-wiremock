@@ -1,0 +1,15 @@
+{
+  "request": {
+    "urlPathPattern": "/foxbit/GetOrderStatus",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "OrderState": "FullyExecuted"
+    }
+  }
+}
