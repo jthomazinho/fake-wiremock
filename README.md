@@ -14,6 +14,7 @@ docker-compose up
 
 # or to run as a daemon
 # docker-compose up -d
+# prepare to use graphql
 ```
 
 ## Adding mocks
