@@ -4,6 +4,7 @@ This project uses [WireMock] to mock responses faking some of the external depen
 
 - Plural (FX quote)
 - Bitstamp (order entry)
+- Binance (order entry)
 
 ## Running
 
